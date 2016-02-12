@@ -1,0 +1,163 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body 
+{
+  padding-top: 50px;
+}
+
+.jumbotron
+{
+	text-align: center;
+	background-image: url(../sunset.jpg);
+	color: white;
+}
+
+ul.nav, .jumbotron h1
+{
+	font-family: 'Play', sans-serif;
+}
+
+ul.nav
+{
+	font-size:  13px;
+}
+
+footer
+{
+	background-color: #f74c3c;
+	padding-top: 150px;
+	padding-bottom: 30px;
+}
+
+#get-involved
+{
+	background-color: #f5f5f5;
+}
+
+.jumbotron h1
+{
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+.jumbotron p
+{
+	margin-bottom: 30px;
+	font-weight: 100px;
+	padding: 0 50px;
+}
+
+.btn-lg
+{
+	font-size: 36px
+}
+
+.homepage
+{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.homepage h2
+{
+	font-size: 30px;
+	color: #d9534f;
+	font-family: 'Play', sans-serif;
+	text-transform: uppercase;
+}
+
+.homepage h3
+{
+	font-size: 26px;
+	color: #d9534f;
+	font-family: 'Play', sans-serif;
+	text-transform: uppercase;
+}
+
+.homepage p
+{
+	font-size: 21px;
+	font-weight: 300;
+}
+
+.homepage a
+{
+	color: #d9534f;
+}
+
+.homepage hr
+{
+	border-top: 1px solid #d9534f;
+	width: 160px;
+	margin-top: 15px;
+}
+
+.homepage a:hover
+{
+	color: #d9534f;
+	text-decoration: none;
+	opacity: .8;
+}
+.homepage h1
+{
+	border-top: 1px solid #d9534f;
+	width: 160px;
+}
+
+/*Responsive Styling*/
+@media (max-width: 1199px) 
+{
+	.jumbotron h1
+	{
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 991px) 
+{
+	.jumbotron h1
+	{
+		font-size: 44px;
+	}
+
+	.jumbotron p
+	{
+		padding: 0 10px;
+	}
+
+	#get-involved .col-mid-4
+	{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+@media (max-width: 767px) 
+{
+	.jumbotron h1
+	{
+		font-size: 24px;
+	}
+
+	.jumbotron p
+	{
+		font-size: 16px;
+		padding: 0px;
+	}
+
+	.btn-lg
+	{
+		font-size: 18px;
+	}
+
+	.homepage p
+	{
+		font-size: 18px;
+	}
+
+	footer img
+	{
+		width: 80%;
+	}
+}
